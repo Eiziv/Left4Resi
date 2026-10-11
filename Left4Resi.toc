@@ -1,0 +1,8 @@
+## Interface: 120100, 120105
+## Title: Left4Resi
+## Notes: /lr 18 posts the dungeons you still need to time for Resilient Keystone 18.
+## Author: Gustaf Granström
+## Version: 1.0.0
+## Category: Dungeons & Raids
+
+Left4Resi.lua
