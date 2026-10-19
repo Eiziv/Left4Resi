@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1c2633"/>
+      <stop offset="1" stop-color="#0c1118"/>
+    </linearGradient>
+    <linearGradient id="stone" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5dffb0"/>
+      <stop offset="1" stop-color="#0c9c62"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.4" r="0.5">
+      <stop offset="0" stop-color="#33ff99" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#33ff99" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="512" height="512" rx="96" fill="url(#bg)"/>
+  <rect x="3" y="3" width="506" height="506" rx="93" fill="none" stroke="#33ff99" stroke-opacity="0.18" stroke-width="6"/>
+  <circle cx="256" cy="196" r="230" fill="url(#glow)"/>
+
+  <!-- Keystone -->
+  <g stroke-linejoin="round">
+    <polygon points="256,40 372,106 372,262 256,344 140,262 140,106" fill="url(#stone)" stroke="#0a1f16" stroke-width="10"/>
+    <polygon points="256,40 372,106 256,150 140,106" fill="#ffffff" fill-opacity="0.22"/>
+    <polygon points="140,106 256,150 256,344 140,262" fill="#000000" fill-opacity="0.10"/>
+    <polygon points="372,106 256,150 256,344 372,262" fill="#000000" fill-opacity="0.24"/>
+    <polygon points="256,40 372,106 372,262 256,344 140,262 140,106" fill="none" stroke="#0a1f16" stroke-width="10"/>
+  </g>
+  <text x="256" y="272" text-anchor="middle" font-family="Noto Sans" font-weight="900" font-size="208" fill="#0a1f16">4</text>
+
+  <!-- Eight dungeons in the pool, three left to time -->
+  <g stroke="#33ff99" stroke-width="6">
+    <circle cx="116" cy="384" r="12" fill="#33ff99"/>
+    <circle cx="156" cy="384" r="12" fill="#33ff99"/>
+    <circle cx="196" cy="384" r="12" fill="#33ff99"/>
+    <circle cx="236" cy="384" r="12" fill="#33ff99"/>
+    <circle cx="276" cy="384" r="12" fill="#33ff99"/>
+    <circle cx="316" cy="384" r="12" fill="none"/>
+    <circle cx="356" cy="384" r="12" fill="none"/>
+    <circle cx="396" cy="384" r="12" fill="none"/>
+  </g>
+
+  <text x="256" y="466" text-anchor="middle" font-family="Noto Sans" font-weight="900" font-size="62" letter-spacing="1" fill="#f2f6f9">LEFT<tspan fill="#33ff99">4</tspan>RESI</text>
+</svg>
